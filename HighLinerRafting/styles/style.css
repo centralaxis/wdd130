@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    max-width: 1600px;
+    background-color: #fcfbfb;
+}
+.banner {
+    background-color: rgb(187, 186, 186);
+    opacity: 0.9;
+}
+.icon {
+    width: 80px;
+}
+#content {
+    margin: 0 auto;
+}
+header {
+    background-color:rgba(225, 124, 0, 0.7);
+}
+.resize {
+    width: 50px;
+    height: auto;
+}
+nav a {
+    background-color: rgb(143, 143, 143);
+    color: #000000;
+    text-decoration: none
+}
+nav a:hover {
+    background-color: rgb(255, 16, 16);
+}
+.book {
+    background-color: rgb(159, 159, 159);
+    color: #0c0c0c;
+    text-decoration: none
+} 
+.join {
+    background-color: rgb(159, 159, 159);
+    color: #0c0c0c;
+    text-decoration: none
+}  
+.book:hover {
+    background-color: rgb(252, 88, 0);
+}
+.join:hover {
+    background-color: rgb(252, 88, 0);
+}
+.msg {
+    background-color:rgba(225, 124, 0, 0.7);
+    color: #ffffff;
+}   
+footer {
+    background-color: #ffffff;
+    color: #000000;
+}  
+footer a {
+    background-color: rgb(159, 159, 159);
+    color: #000000;
+    text-decoration: none
+}  
+footer a:hover {
+    background-color: rgb(252, 88, 0);
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p:hover {
+    text-decoration: underline;
+}    
