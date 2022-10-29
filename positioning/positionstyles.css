@@ -1,0 +1,277 @@
+/* CSS - Name: "positionstyles.css" */
+/* Activity 1 styles */
+.content1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+}
+.red1 { 
+  width: 100%; 
+  height: 100px; 
+  background-color: red;
+  grid-column: 1/3;
+} 
+.green1 {
+  width: 200px; 
+  height: 200px; 
+  background-color: green; 
+
+} 
+.yellow1 {
+  width: 200px; 
+  height: 200px; 
+  background-color: gold; 
+} 
+.blue1 {
+  width: 100%; 
+  height: 100px; 
+  background-color: blue;
+  grid-column: 1/3; 
+} 
+/* Activity 2 styles */ 
+.content2 {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  justify-items: auto;
+  align-items: center;
+}
+.red2 {
+  width: 100px; 
+  height: 100px; 
+  background-color: red; 
+} 
+.green2 { 
+  width: 100px; 
+  height: 100px; 
+  background-color: green;
+  position:relative; left: 5px; bottom: -50px;
+} 
+.yellow2 {
+  width: 100px; 
+  height: 100px; 
+  background-color: gold;
+  position:relative; left: 10px; bottom: -100px;
+} 
+.blue2 {
+  width: 100px; 
+  height: 100px; 
+  background-color: blue;
+  position:relative; left: 15px; bottom: -150px;
+} 
+/* Activity 3 styles */ 
+.content3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.red3 {
+  width: 867px; 
+  height: 100px; 
+  background-color: red;
+  grid-column: 1/3; 
+} 
+.green3 {
+  width: 400px; 
+  height: 200px; 
+  background-color: green;
+} 
+.yellow3 {
+  width: 400px; 
+  height: 200px; 
+  background-color: gold; 
+} 
+.blue3 {
+  width: 867px;
+  height: 100px; 
+  background-color: blue;
+  grid-column: 1/3; 
+} 
+/* Activity 4 styles */ 
+.content4 {
+  display: grid;
+  grid-template-columns: 1ft 1ft;
+  height: 400px;
+  width: 1000px;
+}
+.red4 {
+  width: 500px; 
+  height: 500px; 
+  background-color: red;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  column-fill: auto;
+  
+} 
+.green4 {
+  width: 500px; 
+  height: 167px; 
+  background-color: green;
+  grid-row-start: 2;
+  grid-row-end: 2;
+} 
+.yellow4 {
+  width: 500px; 
+  height: 167px; 
+  background-color: gold; 
+  grid-row-start: 3;
+  grid-row-end: 3;
+} 
+.blue4 {
+  width: 500px; 
+  height: 166px; 
+  background-color: blue;
+  grid-row-start: 4;
+  grid-row-end: 4;
+} 
+/* Activity 5 styles */ 
+.content5 {
+  height: 400px;
+  width: 900px;
+}
+.red5 { 
+  width: 900px; 
+  height: 125px; 
+  background-color: red;
+} 
+.green5 { 
+  width: 300px; 
+  height: 275px; 
+  background-color: green;
+  float: left;
+} 
+.yellow5 {
+  width: auto; 
+  height: 400px; 
+  background-color: gold;
+  font-size: large;
+} 
+.blue5 {
+  width: 900px; 
+  height: 125px; 
+  background-color: blue; 
+} 
+/* Activity 6 styles */ 
+.content6 {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  width: 900px;
+  height: 900px;
+}
+.red6 {
+  width: 600px; 
+  height: 300px; 
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  z-index: -1; 
+} 
+.green6 {
+  width: 300px; 
+  height: 300px; 
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-column-end: 6;
+  z-index: 2;
+  position:relative; top: -300px;
+} 
+.yellow6 {
+  width: 300px; 
+  height: 600px; 
+  background-color: gold;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-column-end: 6;
+  z-index: 2;
+  position:relative; top: -600px;
+} 
+.blue6 {
+  width: 600px; 
+  height: 600px; 
+  background-color: blue;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-column-end: 5;
+  z-index: 1;
+  position:relative; top: -150px; 
+} 
+
+
+/* Do not make any changes below here */
+.activity {
+  width: 70%; 
+  margin: 20px auto; 
+  font-family: Arial, sans-serif; 
+  border: 1px solid black; 
+  padding: 10px; 
+  clear:both; 
+  overflow: auto;
+} 
+
+.hint {
+  border: 1px solid grey;
+  background: #e0e0e0;
+  padding: .5em;
+  position: relative;
+  margin: 1em 0;
+}
+.hint h3 {
+  margin: 0;
+}
+.hint:hover {
+  background: #d0d0d0;
+}
+.hint > div {
+  display: none;
+}
+
+.hint input[type=checkbox] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.hint input[type=checkbox]:checked ~ div {
+  display: block;
+}
+
+.hint i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 10px;
+  top: -3px;
+}
+.hint i:before, .hint i:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 3px;
+  height: 9px;
+}
+.hint i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+.hint i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+.hint input[type=checkbox]:checked ~ i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+.hint input[type=checkbox]:checked ~ i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+.hint a {
+  position: relative;
+  z-index: 1;
+}
