@@ -1,69 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>High Liner Rafting Company</title>
-    <link rel="stylesheet" href="raftingsitefull.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div id="content">
-    <p class="logo_text">High Liner Rafting Company <br>
     <header>
         <img class="main_logo" src="images/rafting_logo.png" alt="Logo image">
         <nav>
             <a href="index.html">Home</a>
-            <a href="index.html">Rentals</a>
-            <a href="index.html">Dates/Avalability</a>
+            <a href="index.html">Page 2</a>
+            <a href="index.html">Site Plan</a>
             <a href="index.html">Contact Information</a>
         </nav>
     </header>
-        <div class="banner"> <p></p>
-            <!-- main image/ ?no icon? + !book now!-->
-            <img src="images/rafting_image_1.jpg" alt="begining raft image">
-            <p class="double_size_font"> Begin Your Adventure</p>
-            <p> Create Memories with the High Liner Family.</p> <br>
-            <a class="book" href="index.html">Book Now</a> <br>
-            <!-- 1st image + start icon -->
-            <img class="box_pic" src="images/rafting_river_0.jpg" alt="rafting image">
-            <img class="icon" src="images/oars.png" alt="oars icon">
-            <p class="double_size_font">Rivers</p>
-            <br>
-            <!-- 2nd image + icon -->
-            <img class="box_pic" src="images/rafting_camping_0.jpg" alt="camping image">
-            <img class="icon" src="images/fire_icon.png" alt="fire icon">
-            <p class="double_size_font">Camping</p>
-            <br>
-            <!-- 3rd image + last icon -->
-            <img class="box_pic" src="images/rafting_nice_view_0.jpg" alt="view image">
-            <img class="icon" src="images/river_icon.png" alt="river icon">
-            <p class="double_size_font">Nature</p>
-            <br>
-            <div></div>
-               <!-- 4th image/ !icon stop! -->
-            <img src="images/rafting_enviroment_0.jpg" alt="enviroment image">
-            <p class="msg"> More Than Meets the Eye</p>
-                <p> Enjoy the beautiful scenery. From the wildlife, calm to rushing waters, and all around good times. We hope to bring you an enjoyable stay and ride. </p>
-        </div>
-    <main>
-    </main>
-    <footer>
-        <a class="join" href="index.html">Join Us <br></a>
-        <br>
-        <p>High Liner Rafting <span>&#169</span>2021<br></p> 
-        <br>
-        <a href="index.html">Site Plan<br></a>
-        <br>
-        <a href="index.html">Contact Us<br></a>
-    </footer>
-    <a href="https://facebook.com" target="_blank">
-        <img class="resize" src="images/facebookicon.png" alt="fb icon">
-    </a>
-    <a href="https://twitter.com" target="_blank">
-        <img class="resize" src="images/twittericon.png" alt="tw icon">
-    </a>
-    <a href="https://www.instagram.com" target="_blank">
-        <img class="resize" src="images/instagramicon.jpg" alt="tw icon">
-    </a>
-    </div>
-</body>
+            <div id="intro-raft">
+                <div id="intro-raft-box">
+                    <img id="intro-raft-img" src="images/rafting_image_1.jpg" alt="begining raft image">
+                </div>
+                <section id="intro-raft-msg">
+                    <h1 class="double_size_font">Begin Your Adventure</h1>
+                    <h4>Create Memories with the High Liner Family.</h4>
+                    <div class="button-box">
+                        <a class="book" href="rates.html">Book Now</a>
+                    </div>
+                </section>
+              </div>
+              <main class="home-grid">
+                <!-- 1st image + start icon -->
+                <section class="rivers-card">
+                    <img class="box_pic" src="images/rafting_river_0.jpg" alt="rafting image">
+                    <img class="icon" src="images/river_icon.png" alt="oars icon">
+                    <h2>Rivers</h2>
+                </section>
+                <!-- 2nd image + icon -->
+                <section class="camping-card">
+                    <img class="box_pic" src="images/rafting_camping_0.jpg" alt="camping image">
+                    <img class="icon" src="images/fire_icon.png" alt="fire icon">
+                    <h2>Camping</h2>
+                </section>
+                <!-- 3rd image + last icon -->
+                <section class="rapids-card">
+                    <img class="box_pic" src="images/rafting_nice_view_0.jpg" alt="view image">
+                    <img class="icon" src="images/oars.png" alt="river icon">
+                    <h2>Nature</h2>
+                </section>
+                <!-- 4th image/ !icon stop! -->
+                <div id="background"></div>
+                <img class="mountains" src="images/rafting_enviroment_0.jpg" alt="enviroment image">
+                <section class="msg">
+                    <h2>More Than Meets the Eye</h2>
+                    <p>Enjoy the beautiful scenery. From the wildlife, calm to rushing waters, and all around good times. We hope to bring you an enjoyable stay and ride. </p>
+                    <a class='join' href="index.html">Join Us</a>
+                </section>
+            </main>
+            <footer>
+                <p>High Liner Rafting<span>&#169</span>2021 - Xander McClure</p>
+                <p><a href="site-plan-rafting.html">Site Plan</a></p>
+                <p><a href="contactus.html">Contact Us</a></p>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebookicon.png" alt="fb icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twittericon.png" alt="tw icon">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagramicon.jpg" alt="ig icon">
+                    </a>
+                </div>
+            </footer>
+    </body>
 </html>
