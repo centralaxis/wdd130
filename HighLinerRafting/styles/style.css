@@ -7,6 +7,16 @@ body {
     padding: 0;
     margin-top: -10px;
 }
+main section h2 {
+    margin-bottom: 250px;
+    margin-top: -100px;
+}
+main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
 .main_logo {
     width: 80px;
     height: auto;
@@ -34,6 +44,7 @@ body {
 #intro-raft-img {
     width: 100%;
     margin-top: -5%;
+    margin-bottom: 250px;
 }
 #intro-raft-msg {
     color: white;
@@ -46,7 +57,7 @@ body {
 }
 .icon {
     padding-top: 10px;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
 }
 #content {
     margin: 0 auto;
@@ -99,11 +110,15 @@ nav a:hover {
 }
 main {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .box_pic, .mountains {
     width: 100%;
 }
+.rivers-card, .camping-card, .rapids-card{
+margin: 200px 0;
+}
+
 .rivers-card {
     margin-top: 150px;
     width: 100%;
@@ -114,7 +129,7 @@ main {
     margin-top: 150px;
     width: 100%;
     grid-column: 5/7;
-    grid-row: 2/3;
+    grid-row: 2/4;
 }
 .rapids-card {
     margin-top: 150px;
@@ -157,12 +172,12 @@ footer img {
     margin-top: 0px;
     padding: 25px;
     color: #000000;
-    text-decoration: none
+    text-decoration: none;
 } 
 footer a {
     margin-top: 50px;
     color: #000000;
-    text-decoration: none
+    text-decoration: none;
 }  
 footer p a:hover {
     background-color: rgb(252, 88, 0);
