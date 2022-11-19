@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+    max-width: 1600px;
+    background-color: rgb(187, 186, 186);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    margin-top: -10px;
+}
+.main_logo {
+    width: 80px;
+    height: auto;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 10fr;
+}
+header {
+    background-color:rgba(225, 124, 0, 0.7);
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 250px auto;
+    font-size: 2em;
+    height: 100%;
+    margin-top: 10px;
+    font-family: "Brush Script MT", Times, serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a {
+    color: #000000;
+}
+nav a:hover {
+    background-color: rgb(255, 16, 16);
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    padding: .8em;
+    /* make this element invisible until we are ready for it */
+}
+.moveDown {
+    margin-top: 3em;
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 10em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  #ending_footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#ending_footer img {
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    padding: 25px;
+    color: #000000;
+    text-decoration: none
+} 
+#ending_footer a {
+    margin-top: 50px;
+    color: #000000;
+    text-decoration: none
+}  
+#ending_footer p a:hover {
+    background-color: rgb(252, 88, 0);
+}
+#ending_footer img:hover {
+    transform: scale(1.5);
+}
+#ending_footer p {
+    font-size: 1.2em;
+}
+#ending_footer p:hover {
+    text-decoration: underline;
+}
