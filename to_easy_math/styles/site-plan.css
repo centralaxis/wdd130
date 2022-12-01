@@ -12,7 +12,7 @@ Fonts are separated by a | */
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Chinyen";
-  --paragraph-font: "Lexie Readable, sans-serif, Helvetica,";
+  --paragraph-font: "Lexie Readable Regular, sans-serif, Helvetica,";
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #89CFF0;  /* headlines on a white background */ 
