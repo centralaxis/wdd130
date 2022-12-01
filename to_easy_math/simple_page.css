@@ -1,0 +1,110 @@
+header {
+    background-color: rgb(137, 207, 240) ;
+}
+:root {
+    --heading-font: "Chinyen";
+    --paragraph-font: "Lexie Readable Regular, sans-serif, Helvetica,";      
+}
+.Logo-grid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+.Logo {
+    width: 450px;
+    height: auto;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.divider {
+    background-color: black;
+    width: auto;
+    height: 65px;
+    justify-self: center;
+    align-self: center;
+}
+.end_grid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+#PS {
+    margin-top: 25px;
+    padding: 35px;
+    justify-self: center;
+    align-self: center;
+    width: 75%;
+    background-color: #8F00FF;
+    height: 550px;
+    font-size: 40px;
+    font-family: var(--paragraph-font);
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.end {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+footer {
+    background-color: #6f7364;
+    padding: 10px 15px;
+    margin-top: 2.5%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.end p {
+    font-size: 1.2em;
+    font-family: var(--paragraph-font);
+    grid-column: 1;
+    grid-row: 1;
+}
+.end p:hover {
+    text-decoration: underline;
+    background-color: #8F00FF;
+    color: white;
+}
+footer a {
+    font-size: 1.2em;
+    font-family: var(--paragraph-font);
+    grid-column: 2;
+    grid-row: 1;
+}
+footer a:hover {
+    text-decoration: underline;
+    background-color: #8F00FF;
+    color: white;
+}
+/* Calculator */
+table {
+    margin-top: 25px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    grid-column: 1;
+    grid-row: 1;
+}
+
