@@ -24,6 +24,9 @@ header {
     justify-self: center;
     align-self: center;
 }
+img {
+    border: 10px solid rgb(143, 0, 255)
+}
 body {
     margin-left: auto;
     margin-right: auto;
